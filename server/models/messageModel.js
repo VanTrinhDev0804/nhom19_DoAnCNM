@@ -11,6 +11,12 @@ const MessageSchema = mongoose.Schema(
       ref: "User",
       required: true,
     },
+    nameSenderInGroup: {
+      type: String,
+      required: true,
+      min: 3,
+      max: 20,
+    },
   },
   {
     timestamps: true,

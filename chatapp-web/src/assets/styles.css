@@ -1,0 +1,30 @@
+.GroupChat-Container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.GroupChat_SelectedUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkBox_Info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.ant-checkbox-wrapper {
+  
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 10px !important;
+}
+p {   
+    margin-bottom: 0 !important;
+    margin-left: 10px;
+}
